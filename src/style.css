@@ -3,6 +3,9 @@ body{
     margin: 0;
     background-image:url(../public/bg-dark.svg);
     font-family:'' ;
+    box-sizing: border-box;
+    
+    
 }
 nav{
     display: flex;
@@ -11,24 +14,32 @@ nav{
     align-items: center;
     border-radius: 10px;
     
-    padding: 20px;
+    padding:20px 30px 0px 30px ;
     background-color: #FFFFFF01;
 }
 .logo{
-    margin-left: ;
+    
     height: 30px;
     width: 150px;
     
 }
 .link{
     display: flex;
-    gap: 40px;
+    gap: 10px;
     margin-left:100px ;
+    
 }
 .link a{
     text-decoration: none;
     color: #fff;
     font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    
+}
+ a:hover{
+    background-color:#FFFFFF20 ;
+    
+    border-radius: 30px;
 }
 .btn{
     display: flex;
@@ -54,4 +65,80 @@ nav{
     color: white;
     
     
+}
+.btn2:hover{
+    background-color: #cdcdcd;
+    cursor: pointer;
+
+}
+.btn1:hover{
+    cursor:pointer ;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+.main-line{
+    color: #fff;
+    text-align-last:center ;
+    margin-top: 6rem;
+    margin-bottom: 0.5rem;
+   font-size: clamp(1rem, 4vw, 4rem);
+
+}
+.pro-line{
+    text-align:center;
+    color: #fff;
+    margin-bottom: 1rem;
+
+    
+    font-size: clamp(0.5rem, 4vw,1.5rem);
+    font-weight: 1000px;
+}
+.input{
+    background-color:#FFFFFF30;
+    padding: 6px  6px ;
+    border-radius: 30px;
+    border: 1px solid #FFFFFF20;
+    display: flex;
+    margin: 2rem;
+    
+ 
+     
+   
+    
+}
+.input input{
+    background-color: #FFFFFF00;
+    border: none;
+    padding: 13px;
+    outline:none ;
+    caret-color: #fff;
+    margin-right:170px;
+    color: #fff;
+    
+    
+    
+}
+.input button{
+    border-radius:30px ;
+    width: 100px;
+    font-size: large;
+
+    
+    border: none;
+}
+input::placeholder{
+    color: #FFFFFF80;
+     height:20px ;
+     font-size:large ;
+}
+.in-btn:hover{
+    background-color:#cdcdcd;
+    cursor: pointer;
+
 }
