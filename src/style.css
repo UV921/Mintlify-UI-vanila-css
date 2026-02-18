@@ -1,12 +1,20 @@
 body{
     padding: 0;
     margin: 0;
-    background-image:url(../public/bg-dark.svg);
+    background-color:#08090A;
+    
     font-family:'' ;
     box-sizing: border-box;
+   
     
     
 }
+header{
+  
+     background-image:url(../public/bg-dark.svg);
+     background-image: linear-gradient()}
+
+
 nav{
     display: flex;
     justify-content:space-between
@@ -81,6 +89,8 @@ main{
     justify-content: center;
     align-content: center;
     
+
+    
 }
 .main-line{
     color: #fff;
@@ -141,4 +151,19 @@ input::placeholder{
     background-color:#cdcdcd;
     cursor: pointer;
 
+}
+.hero {
+  background-image: linear-gradient(to right,transparent
+   50%,#08090A  50%);
+}
+.trusted{
+    margin-top: 100px;
+}
+.trusted ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.new{
+    color: #fff;
 }
